@@ -22,7 +22,7 @@
 
 button {
   padding: 15px 35px;
-  background-color: #4ecca3;
+  background-color: #efe45d;
   font-family: "Indie Flower", cursive;
   color: #393e46;
   font-size: 30px;
@@ -37,20 +37,20 @@ button {
 }
 
 body {
-  background-color: #393e46;
+  background-color: #002a6a;
 }
 
 h1 {
   margin: 30px;
-  font-family: "Lobster", cursive;
+  font-family: "Hammersmith One", sans-serif;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
-  color: #4ecca3;
+  color: #efe45d;
 }
 
 p {
   font-size: 2rem;
-  color: #4ecca3;
+  color: #efe45d;
   font-family: "Indie Flower", cursive;
 }
 
