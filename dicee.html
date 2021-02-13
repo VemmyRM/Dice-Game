@@ -2,39 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Dicee</title>
+    <title>The Great Dice Game</title>
+
+    <!-- Adding style sheet and google fonts -->
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <script
-      src="https://kit.fontawesome.com/a11d0afb31.js"
-      crossorigin="anonymous"
-    ></script>
+  
   </head>
   <body>
+
+    <!-- container containing the title -->
     <div class="container">
       <h1>The Great Dice Game!</h1>
     </div>
+
+
+    <!-- container containing the 2 dice images -->
     <div class="container">
       <div class="dice">
+        <!-- editable p tag containing user 1's name-->
         <p id = "player1" contentEditable="true">Player 1</p>
+        <!-- img tag containing starting image of dice face 6 -->
         <img class="img1" src="images/dice6.png" />
       </div>
 
       <div class="dice">
+        <!-- editable p tag containing user 2's name -->
         <p id= "player2" contentEditable="true">Player 2</p>
+        <!-- img tag containing starting image of dice face 6 -->
         <img class="img2" src="images/dice6.png" />
       </div>
     </div>
+
+    <!-- container containing the dice roll button -->
     <div class="container">
+      <!-- button that runs the roll function to roll dice on click -->
       <button onclick="roll()">Roll Dice!</button>
     </div>
+
+    <!-- Importing javascript file -->
     <script src="index.js"></script>
+
+
     <footer>
       <p class = "foot">A challenge from www.appbrewery.com</p>
     </footer>
